@@ -1,8 +1,5 @@
 // functions2.rs
-//
-// Execute `rustlings hint functions2` or use the `hint` watch subcommand for a
-// hint.
-
+// Make me compile! Execute `rustlings hint functions2` for hints :)
 
 fn main() {
     call_me(3);

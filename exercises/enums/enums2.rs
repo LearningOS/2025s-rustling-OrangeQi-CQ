@@ -1,12 +1,9 @@
 // enums2.rs
-//
-// Execute `rustlings hint enums2` or use the `hint` watch subcommand for a
-// hint.
-
+// Make me compile! Execute `rustlings hint enums2` for hints!
 
 #[derive(Debug)]
 enum Message {
-    Move {x: i32, y: i32},
+    Move { x: i32, y: i32 },
     Echo(String),
     ChangeColor(i32, i32, i32),
     Quit,
@@ -14,7 +11,7 @@ enum Message {
 
 impl Message {
     fn call(&self) {
-        println!("{:?}", self);
+        println!("{:?}", &self);
     }
 }
 
